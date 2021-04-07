@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+body {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+#nav {
+    background-color: rgb(65, 71, 78) !important;
+}
+
+#col {
+    background-color: #d9e2e2;
+}
+
+#action {
+    font-size: x-large;
+}
+
+.navbar-toggler {
+    background-color: rgba(114, 121, 128, 0.575);
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.flex-equal>* {
+    flex: 1;
+}
